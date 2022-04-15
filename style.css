@@ -1,0 +1,41 @@
+.button {
+  border: solid;
+  text-align: center;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: blue;
+}
+
+.bg-img {
+  background-size: transparent;
+}
+
+.carousel-item {
+  height: 50rem;
+  margin: 5px;
+}
+
+.story {
+  text-align: center;
+  font-family: "Square Peg", cursive;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.story1 {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.story2 {
+  margin: 0;
+  text-decoration: underline;
+}
+
+.card {
+  margin: 5px;
+}
