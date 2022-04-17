@@ -5,10 +5,6 @@
   font-weight: bold;
 }
 
-.navbar {
-  background-color: blue;
-}
-
 .bg-img {
   background-size: transparent;
 }
@@ -23,6 +19,7 @@
   font-family: "Square Peg", cursive;
   font-weight: bold;
   font-size: xx-large;
+  letter-spacing: 2px;
 }
 
 .story1 {
@@ -34,8 +31,39 @@
 .story2 {
   margin: 0;
   text-decoration: underline;
+  margin-bottom: 40px;
 }
 
 .card {
   margin: 5px;
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+  color: red;
+  font-family: "Pacifico", cursive;
+  font-weight: bold;
+  margin: 40px;
+}
+
+.footer {
+  background-color: rgb(27, 23, 23);
+  padding-bottom: 20px;
+}
+
+.footer-list {
+  list-style-type: none;
+}
+
+.address {
+  color: white;
+  padding-top: 20px;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
