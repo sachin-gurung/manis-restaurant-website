@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mani's restaurant website</title>
 
+    <!-- Link to Fontawesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" crossorigin="anonymous"></script>
+
     <!-- Link to Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Square+Peg&display=swap" rel="stylesheet">
 
     <!-- Link to Bootstrap -->
     <link
@@ -63,6 +67,11 @@
       </nav>
     </nav>
 
+    <!-- Heading -->
+    <header class="header">
+      <h1>Mani's Nepalese Cuisine</h1>
+    </header>
+
     <!-- Carousel -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -104,33 +113,30 @@
     </div>
 
     <!-- Cards -->
-    <div class="card mb-3" style="max-width: 540px;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="Mani.png" class="img-fluid rounded-start" alt="Picture of Chef Mani">
-        </div>
-        <div class="col-md-8">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
           <div class="card-body">
+            <img src="Mani.png" class="img-fluid rounded-start" alt="Picture of Chef Mani">
             <h5 class="card-title">MasterChef Maniraj Gurung</h5>
-            <p class="card-text">For more than two decades, Maniraj Gurung has worked in hospitality industry in United Kingdom where his super multi-tasking skill saw him developing menus and cooking delicious Nepalese food. </p>
+            <p class="card-text">For more than two decades, Maniraj Gurung has worked in hospitality industry in United Kingdom where his super multi-tasking skill saw him developing menus and cooking delicious Nepalese food.</p>
+            <a href="https://www.facebook.com/mani.gurung.3158" class="btn btn-primary" target="_blank">Let's connect</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/d6/96/36/photo4jpg.jpg?w=700&h=-1&s=1" class="img-fluid rounded-start" alt="Picture of country Nepal">
+            <h5 class="card-title">Nepal</h5>
+            <p class="card-text">Nepal is a country lying in the lap of the Himalayas, the world's highest mountain ranges. Nepalese food primarily consist of rice, lentils, vegetables and meat curries.</p>
+            <a href="https://ntb.gov.np/" class="btn btn-primary" target="_blank">Visit Nepal</a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="card mb-3" style="max-width: 540px;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/d6/96/36/photo4jpg.jpg?w=700&h=-1&s=1" class="img-fluid rounded-start" alt="Picture of country Nepal">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Nepal</h5>
-            <p class="card-text">Nepal is a country lying in the lap of the Himalayas, the world's highest mountain ranges. Nepalese food primarily consist of rice, lentils, vegetables and meat curries.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    
     
     <div>
       <p class="story story1">
@@ -140,6 +146,28 @@
       <p class="story story2">Our Story</p>
       
     </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <ul class="footer-u-list"></ul>
+            <li class="footer-list"><a href="mailto:sachingurung10@gmail.com">Contact Us</a></li>
+            <li class="footer-list"> <a href="https://www.amazon.com/gift-cards/b?ie=UTF8&node=2238192011" target="_blank">Gift Cards</a></li>
+            <li class="footer-list"><a href="tel: +4253651999"> 425-365-1999</a></li>
+                        <!-- <li class="footer-list"><address>123 Richard Way, <br>
+              Seattle, WA 98523</address></li> -->
+              <address class="address">
+                Visit us at: <br>
+                123 Charlie Street, Suite 102 <br>
+                Seattle, WA 98562
+              </address>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    
 
     <!-- Background image
     <img class= "bg-img" src="https://images.unsplash.com/photo-1580424917967-a8867a6e676e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="image of Nepal with mountains"> -->
