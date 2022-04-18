@@ -67,3 +67,11 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+.social-media-icon {
+  color: white;
+}
+
+.address {
+  font-style: italic;
+}
